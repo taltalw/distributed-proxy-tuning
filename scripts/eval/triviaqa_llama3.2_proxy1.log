@@ -1,0 +1,292 @@
+nohup: 忽略输入
+Evaluating llama3.2 3b
+Results dir: results/triviaqa/llama3.2-3B
+Loading model and tokenizer...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.94s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.28s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.38s/it]
+Question: Which London football club won the last FA cup final held at the old Wembley Stadium?
+Answer:
+Generating Completions:   0%|          | 0/300 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   3%|▎         | 8/300 [00:23<14:33,  2.99s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   5%|▌         | 16/300 [00:31<08:25,  1.78s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   8%|▊         | 24/300 [00:34<05:12,  1.13s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  11%|█         | 32/300 [00:40<04:24,  1.01it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  13%|█▎        | 40/300 [00:42<03:06,  1.39it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  16%|█▌        | 48/300 [00:52<03:52,  1.08it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  19%|█▊        | 56/300 [00:56<03:10,  1.28it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  21%|██▏       | 64/300 [00:58<02:23,  1.65it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  24%|██▍       | 72/300 [01:00<01:50,  2.07it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  27%|██▋       | 80/300 [01:02<01:29,  2.45it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  29%|██▉       | 88/300 [01:02<01:05,  3.23it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  32%|███▏      | 96/300 [01:25<03:41,  1.09s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  35%|███▍      | 104/300 [01:26<02:33,  1.28it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  37%|███▋      | 112/300 [01:28<01:56,  1.62it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  40%|████      | 120/300 [01:30<01:29,  2.02it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  43%|████▎     | 128/300 [01:30<01:04,  2.69it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  45%|████▌     | 136/300 [01:32<00:54,  3.01it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  48%|████▊     | 144/300 [01:34<00:47,  3.28it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  51%|█████     | 152/300 [01:39<00:58,  2.52it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  53%|█████▎    | 160/300 [01:41<00:48,  2.87it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  56%|█████▌    | 168/300 [01:43<00:40,  3.26it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  59%|█████▊    | 176/300 [01:45<00:35,  3.49it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  61%|██████▏   | 184/300 [01:45<00:26,  4.41it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  64%|██████▍   | 192/300 [01:47<00:24,  4.34it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  67%|██████▋   | 200/300 [01:48<00:18,  5.35it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  69%|██████▉   | 208/300 [01:48<00:14,  6.39it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  72%|███████▏  | 216/300 [01:49<00:11,  7.39it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  75%|███████▍  | 224/300 [01:51<00:11,  6.34it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  77%|███████▋  | 232/300 [01:52<00:09,  7.35it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  80%|████████  | 240/300 [01:52<00:07,  7.87it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  83%|████████▎ | 248/300 [01:53<00:05,  8.71it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  85%|████████▌ | 256/300 [01:55<00:06,  6.93it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  88%|████████▊ | 264/300 [01:55<00:04,  7.90it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  91%|█████████ | 272/300 [01:57<00:04,  6.26it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  93%|█████████▎| 280/300 [01:58<00:02,  7.28it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  96%|█████████▌| 288/300 [02:00<00:01,  6.30it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  99%|█████████▊| 296/300 [02:00<00:00,  7.30it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions: 100%|██████████| 300/300 [02:23<00:00,  1.12s/it]Generating Completions: 100%|██████████| 300/300 [02:23<00:00,  2.09it/s]
+Accuracy: 0.027
+Evaluating llama3.2 3b INSTRUCT
+Results dir: results/triviaqa/llama3.2-INSTRUCT-3B
+Loading model and tokenizer...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.96s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.29s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.39s/it]
+Question: Which London football club won the last FA cup final held at the old Wembley Stadium?
+Answer:
+Generating Completions:   0%|          | 0/300 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   3%|▎         | 8/300 [00:23<14:11,  2.92s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   5%|▌         | 16/300 [00:30<08:13,  1.74s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   8%|▊         | 24/300 [00:33<05:06,  1.11s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  11%|█         | 32/300 [00:39<04:20,  1.03it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  13%|█▎        | 40/300 [00:41<03:04,  1.41it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  16%|█▌        | 48/300 [00:52<03:50,  1.09it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  19%|█▊        | 56/300 [00:55<03:08,  1.29it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  21%|██▏       | 64/300 [00:57<02:22,  1.66it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  24%|██▍       | 72/300 [00:59<01:49,  2.08it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  27%|██▋       | 80/300 [01:01<01:29,  2.47it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  29%|██▉       | 88/300 [01:02<01:05,  3.26it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  32%|███▏      | 96/300 [01:24<03:39,  1.08s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  35%|███▍      | 104/300 [01:25<02:32,  1.29it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  37%|███▋      | 112/300 [01:27<01:55,  1.63it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  40%|████      | 120/300 [01:29<01:28,  2.03it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  43%|████▎     | 128/300 [01:29<01:03,  2.71it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  45%|████▌     | 136/300 [01:31<00:54,  3.03it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  48%|████▊     | 144/300 [01:33<00:47,  3.30it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  51%|█████     | 152/300 [01:38<00:58,  2.53it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  53%|█████▎    | 160/300 [01:40<00:48,  2.87it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  56%|█████▌    | 168/300 [01:42<00:40,  3.25it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  59%|█████▊    | 176/300 [01:43<00:35,  3.48it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  61%|██████▏   | 184/300 [01:44<00:26,  4.41it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  64%|██████▍   | 192/300 [01:46<00:24,  4.35it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  67%|██████▋   | 200/300 [01:47<00:18,  5.35it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  69%|██████▉   | 208/300 [01:47<00:14,  6.40it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  72%|███████▏  | 216/300 [01:48<00:11,  7.41it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  75%|███████▍  | 224/300 [01:50<00:11,  6.35it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  77%|███████▋  | 232/300 [01:50<00:09,  7.35it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  80%|████████  | 240/300 [01:51<00:07,  8.25it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  83%|████████▎ | 248/300 [01:52<00:05,  9.06it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  85%|████████▌ | 256/300 [01:54<00:06,  7.15it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  88%|████████▊ | 264/300 [01:54<00:04,  7.71it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  91%|█████████ | 272/300 [01:56<00:04,  5.93it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  93%|█████████▎| 280/300 [01:57<00:02,  6.68it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  96%|█████████▌| 288/300 [01:59<00:02,  5.96it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  99%|█████████▊| 296/300 [02:00<00:00,  6.69it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions: 100%|██████████| 300/300 [02:23<00:00,  1.13s/it]Generating Completions: 100%|██████████| 300/300 [02:23<00:00,  2.09it/s]
+Accuracy: 0.02
+Evaluating llama3.2 3b triviaqa
+Loading model and tokenizer...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.92s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.26s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.36s/it]
+/home/wangyatong/anaconda3/envs/proxy2/lib/python3.10/site-packages/auto_gptq/nn_modules/triton_utils/kernels.py:360: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, input, qweight, scales, qzeros, g_idx, bits, maxq):
+/home/wangyatong/anaconda3/envs/proxy2/lib/python3.10/site-packages/auto_gptq/nn_modules/triton_utils/kernels.py:368: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, grad_output):
+/home/wangyatong/anaconda3/envs/proxy2/lib/python3.10/site-packages/auto_gptq/nn_modules/triton_utils/kernels.py:399: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @custom_fwd(cast_inputs=torch.float16)
+CUDA extension not installed.
+CUDA extension not installed.
+/home/wangyatong/anaconda3/envs/proxy2/lib/python3.10/site-packages/peft/utils/save_and_load.py:198: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  adapters_weights = torch.load(filename, map_location=torch.device(device))
+Question: Which London football club won the last FA cup final held at the old Wembley Stadium?
+Answer:
+Generating Completions:   0%|          | 0/300 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   3%|▎         | 8/300 [00:06<03:53,  1.25it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   5%|▌         | 16/300 [00:13<03:59,  1.18it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   8%|▊         | 24/300 [00:15<02:45,  1.67it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  11%|█         | 32/300 [00:21<02:56,  1.52it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  13%|█▎        | 40/300 [00:24<02:19,  1.86it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  16%|█▌        | 48/300 [00:32<02:54,  1.44it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  19%|█▊        | 56/300 [00:39<03:04,  1.32it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  21%|██▏       | 64/300 [00:42<02:25,  1.62it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  24%|██▍       | 72/300 [00:44<02:01,  1.88it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  27%|██▋       | 80/300 [00:46<01:36,  2.28it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  29%|██▉       | 88/300 [00:47<01:08,  3.11it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  32%|███▏      | 96/300 [00:51<01:21,  2.49it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  35%|███▍      | 104/300 [00:51<00:56,  3.47it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  37%|███▋      | 112/300 [00:53<00:48,  3.92it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  40%|████      | 120/300 [00:54<00:40,  4.46it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  43%|████▎     | 128/300 [00:55<00:30,  5.63it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  45%|████▌     | 136/300 [00:56<00:29,  5.55it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  48%|████▊     | 144/300 [00:58<00:28,  5.55it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  51%|█████     | 152/300 [01:03<00:50,  2.95it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  53%|█████▎    | 160/300 [01:05<00:41,  3.41it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  56%|█████▌    | 168/300 [01:12<01:01,  2.15it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  59%|█████▊    | 176/300 [01:14<00:52,  2.35it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  61%|██████▏   | 184/300 [01:15<00:36,  3.19it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  64%|██████▍   | 192/300 [01:19<00:38,  2.77it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  67%|██████▋   | 200/300 [01:19<00:26,  3.74it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  69%|██████▉   | 208/300 [01:19<00:18,  4.87it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  72%|███████▏  | 216/300 [01:20<00:13,  6.10it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  75%|███████▍  | 224/300 [01:21<00:12,  5.98it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  77%|███████▋  | 232/300 [01:22<00:09,  7.40it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  80%|████████  | 240/300 [01:22<00:06,  9.18it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  83%|████████▎ | 248/300 [01:23<00:04, 10.53it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  85%|████████▌ | 256/300 [01:24<00:04,  8.85it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  88%|████████▊ | 264/300 [01:25<00:04,  8.98it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  91%|█████████ | 272/300 [01:26<00:03,  7.52it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  93%|█████████▎| 280/300 [01:27<00:02,  8.80it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  96%|█████████▌| 288/300 [01:28<00:01,  7.45it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  99%|█████████▊| 296/300 [01:29<00:00,  9.77it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions: 100%|██████████| 300/300 [01:33<00:00,  3.44it/s]Generating Completions: 100%|██████████| 300/300 [01:33<00:00,  3.20it/s]
+Accuracy: 0.503
+Evaluating llama3.2 1b
+Results dir: results/triviaqa/llama3.2-1B
+Loading model and tokenizer...
+Question: Which London football club won the last FA cup final held at the old Wembley Stadium?
+Answer:
+Generating Completions:   0%|          | 0/300 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   3%|▎         | 8/300 [00:31<19:11,  3.94s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   5%|▌         | 16/300 [00:40<10:58,  2.32s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   8%|▊         | 24/300 [00:44<06:42,  1.46s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  11%|█         | 32/300 [00:52<05:38,  1.26s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  13%|█▎        | 40/300 [00:54<03:55,  1.10it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  16%|█▌        | 48/300 [01:08<04:57,  1.18s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  19%|█▊        | 56/300 [01:12<04:00,  1.02it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  21%|██▏       | 64/300 [01:14<02:58,  1.32it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  24%|██▍       | 72/300 [01:16<02:13,  1.71it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  27%|██▋       | 80/300 [01:18<01:48,  2.02it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  29%|██▉       | 88/300 [01:19<01:16,  2.79it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  32%|███▏      | 96/300 [01:49<04:47,  1.41s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  35%|███▍      | 104/300 [01:50<03:16,  1.00s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  37%|███▋      | 112/300 [01:52<02:26,  1.28it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  40%|████      | 120/300 [01:54<01:49,  1.64it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  43%|████▎     | 128/300 [01:54<01:15,  2.26it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  45%|████▌     | 136/300 [01:56<01:04,  2.56it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  48%|████▊     | 144/300 [01:58<00:55,  2.81it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  51%|█████     | 152/300 [02:04<01:10,  2.11it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  53%|█████▎    | 160/300 [02:07<00:57,  2.42it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  56%|█████▌    | 168/300 [02:08<00:46,  2.85it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  59%|█████▊    | 176/300 [02:10<00:40,  3.05it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  61%|██████▏   | 184/300 [02:11<00:28,  4.09it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  64%|██████▍   | 192/300 [02:13<00:27,  3.96it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  67%|██████▋   | 200/300 [02:13<00:19,  5.21it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  69%|██████▉   | 208/300 [02:14<00:13,  6.68it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  72%|███████▏  | 216/300 [02:14<00:10,  8.34it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  75%|███████▍  | 224/300 [02:16<00:11,  6.79it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  77%|███████▋  | 232/300 [02:16<00:08,  8.44it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  80%|████████  | 240/300 [02:17<00:05, 10.16it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  83%|████████▎ | 248/300 [02:17<00:04, 11.86it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  85%|████████▌ | 256/300 [02:19<00:05,  7.90it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  88%|████████▊ | 264/300 [02:19<00:03,  9.59it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  91%|█████████ | 272/300 [02:22<00:04,  6.42it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  93%|█████████▎| 280/300 [02:22<00:02,  8.02it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  96%|█████████▌| 288/300 [02:24<00:01,  6.67it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  99%|█████████▊| 296/300 [02:24<00:00,  8.31it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  99%|█████████▊| 296/300 [02:40<00:00,  8.31it/s]Generating Completions: 100%|██████████| 300/300 [02:55<00:00,  1.45s/it]Generating Completions: 100%|██████████| 300/300 [02:55<00:00,  1.71it/s]
+Accuracy: 0.0
+Evaluating llama3.2 1b chat
+Results dir: results/triviaqa/llama3.2-INSTRUCT-1B
+Loading model and tokenizer...
+Question: Which London football club won the last FA cup final held at the old Wembley Stadium?
+Answer:
+Generating Completions:   0%|          | 0/300 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   3%|▎         | 8/300 [00:31<18:58,  3.90s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   5%|▌         | 16/300 [00:40<10:52,  2.30s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   8%|▊         | 24/300 [00:44<06:41,  1.45s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  11%|█         | 32/300 [00:51<05:38,  1.26s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  13%|█▎        | 40/300 [00:54<03:55,  1.11it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  16%|█▌        | 48/300 [01:07<04:59,  1.19s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  19%|█▊        | 56/300 [01:12<04:00,  1.01it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  21%|██▏       | 64/300 [01:14<02:59,  1.32it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  24%|██▍       | 72/300 [01:16<02:14,  1.69it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  27%|██▋       | 80/300 [01:18<01:49,  2.00it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  29%|██▉       | 88/300 [01:19<01:16,  2.76it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  32%|███▏      | 96/300 [01:50<04:49,  1.42s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  35%|███▍      | 104/300 [01:50<03:17,  1.01s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  37%|███▋      | 112/300 [01:52<02:27,  1.27it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  40%|████      | 120/300 [01:54<01:49,  1.64it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  43%|████▎     | 128/300 [01:54<01:16,  2.26it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  45%|████▌     | 136/300 [01:56<01:04,  2.56it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  48%|████▊     | 144/300 [01:59<00:55,  2.81it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  51%|█████     | 152/300 [02:04<01:09,  2.12it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  53%|█████▎    | 160/300 [02:07<00:57,  2.43it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  56%|█████▌    | 168/300 [02:08<00:46,  2.85it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  59%|█████▊    | 176/300 [02:11<00:40,  3.05it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  61%|██████▏   | 184/300 [02:11<00:28,  4.08it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  64%|██████▍   | 192/300 [02:13<00:27,  3.86it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  67%|██████▋   | 200/300 [02:14<00:20,  4.99it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  69%|██████▉   | 208/300 [02:14<00:14,  6.28it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  72%|███████▏  | 216/300 [02:15<00:10,  7.88it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  75%|███████▍  | 224/300 [02:16<00:11,  6.60it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  77%|███████▋  | 232/300 [02:17<00:08,  8.20it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  80%|████████  | 240/300 [02:17<00:06,  9.90it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  83%|████████▎ | 248/300 [02:18<00:04, 11.59it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  85%|████████▌ | 256/300 [02:19<00:05,  8.13it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  88%|████████▊ | 264/300 [02:20<00:03,  9.86it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  91%|█████████ | 272/300 [02:22<00:04,  6.55it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  93%|█████████▎| 280/300 [02:22<00:02,  8.18it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  96%|█████████▌| 288/300 [02:24<00:01,  6.70it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  99%|█████████▊| 296/300 [02:24<00:00,  8.33it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  99%|█████████▊| 296/300 [02:40<00:00,  8.33it/s]Generating Completions: 100%|██████████| 300/300 [02:55<00:00,  1.45s/it]Generating Completions: 100%|██████████| 300/300 [02:55<00:00,  1.71it/s]
+Accuracy: 0.147
+Evaluating llama3.1 1b triviaqa
+/home/wangyatong/anaconda3/envs/proxy2/lib/python3.10/site-packages/auto_gptq/nn_modules/triton_utils/kernels.py:360: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, input, qweight, scales, qzeros, g_idx, bits, maxq):
+/home/wangyatong/anaconda3/envs/proxy2/lib/python3.10/site-packages/auto_gptq/nn_modules/triton_utils/kernels.py:368: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, grad_output):
+/home/wangyatong/anaconda3/envs/proxy2/lib/python3.10/site-packages/auto_gptq/nn_modules/triton_utils/kernels.py:399: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @custom_fwd(cast_inputs=torch.float16)
+CUDA extension not installed.
+CUDA extension not installed.
+/home/wangyatong/anaconda3/envs/proxy2/lib/python3.10/site-packages/peft/utils/save_and_load.py:198: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  adapters_weights = torch.load(filename, map_location=torch.device(device))
+Loading model and tokenizer...
+Question: Which London football club won the last FA cup final held at the old Wembley Stadium?
+Answer:
+Generating Completions:   0%|          | 0/300 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   3%|▎         | 8/300 [00:09<05:56,  1.22s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   5%|▌         | 16/300 [00:20<06:01,  1.27s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:   8%|▊         | 24/300 [00:23<04:01,  1.14it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  11%|█         | 32/300 [00:38<05:47,  1.30s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  13%|█▎        | 40/300 [00:40<03:57,  1.09it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  16%|█▌        | 48/300 [00:50<04:11,  1.00it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  19%|█▊        | 56/300 [00:51<02:59,  1.36it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  21%|██▏       | 64/300 [00:54<02:28,  1.59it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  24%|██▍       | 72/300 [00:58<02:07,  1.78it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  27%|██▋       | 80/300 [01:01<01:52,  1.95it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  29%|██▉       | 88/300 [01:01<01:17,  2.75it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  32%|███▏      | 96/300 [01:17<02:51,  1.19it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  35%|███▍      | 104/300 [01:17<01:56,  1.69it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  37%|███▋      | 112/300 [01:19<01:31,  2.06it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  40%|████      | 120/300 [01:20<01:10,  2.56it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  43%|████▎     | 128/300 [01:20<00:49,  3.51it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  45%|████▌     | 136/300 [01:22<00:44,  3.67it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  48%|████▊     | 144/300 [01:24<00:41,  3.79it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  51%|█████     | 152/300 [01:32<01:08,  2.15it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  53%|█████▎    | 160/300 [01:34<00:57,  2.42it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  56%|█████▌    | 168/300 [01:45<01:32,  1.43it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  59%|█████▊    | 176/300 [01:51<01:26,  1.43it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  61%|██████▏   | 184/300 [01:53<01:05,  1.76it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  64%|██████▍   | 192/300 [01:55<00:51,  2.11it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  67%|██████▋   | 200/300 [01:55<00:33,  2.95it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  69%|██████▉   | 208/300 [01:55<00:22,  4.13it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  72%|███████▏  | 216/300 [01:55<00:14,  5.63it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  75%|███████▍  | 224/300 [01:57<00:13,  5.52it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  77%|███████▋  | 232/300 [01:57<00:09,  7.29it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  80%|████████  | 240/300 [01:57<00:06,  9.11it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  83%|████████▎ | 248/300 [01:58<00:04, 11.67it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  85%|████████▌ | 256/300 [01:59<00:05,  8.64it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  88%|████████▊ | 264/300 [01:59<00:03, 10.89it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  91%|█████████ | 272/300 [02:01<00:03,  7.13it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  93%|█████████▎| 280/300 [02:02<00:02,  9.36it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  96%|█████████▌| 288/300 [02:03<00:01,  7.60it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions:  99%|█████████▊| 296/300 [02:03<00:00, 10.06it/s]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating Completions: 100%|██████████| 300/300 [02:10<00:00,  2.79it/s]Generating Completions: 100%|██████████| 300/300 [02:10<00:00,  2.30it/s]
+Accuracy: 0.333

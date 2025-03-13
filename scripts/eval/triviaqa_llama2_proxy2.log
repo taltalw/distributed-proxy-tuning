@@ -1,0 +1,59 @@
+nohup: ignoring input
+Evaluating DExperts with multi triviaqa expert
+Results dir: results/triviaqa/multi-dexperts-13B
+/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/utils/generic.py:311: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  torch.utils._pytree._register_pytree_node(
+/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Using pad_token, but it is not set yet.
+/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/utils/generic.py:311: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  torch.utils._pytree._register_pytree_node(
+Loading model and tokenizer expert2...
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:04<00:08,  4.48s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:08<00:04,  4.34s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:11<00:00,  3.52s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:11<00:00,  3.76s/it]
+/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.10s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.57s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.80s/it]
+/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/auto_gptq/nn_modules/triton_utils/kernels.py:360: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, input, qweight, scales, qzeros, g_idx, bits, maxq):
+/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/auto_gptq/nn_modules/triton_utils/kernels.py:368: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, grad_output):
+/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/auto_gptq/nn_modules/triton_utils/kernels.py:399: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @custom_fwd(cast_inputs=torch.float16)
+CUDA extension not installed.
+CUDA extension not installed.
+/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/peft/utils/save_and_load.py:198: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  adapters_weights = torch.load(filename, map_location=torch.device(device))
+/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.30s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.69s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.94s/it]
+/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/peft/utils/save_and_load.py:198: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  adapters_weights = torch.load(filename, map_location=torch.device(device))
+/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/data6/wangyatong/proxy-tuning/eval/triviaqa/run_eval.py", line 165, in <module>
+    main(args)
+  File "/data6/wangyatong/proxy-tuning/eval/triviaqa/run_eval.py", line 33, in main
+    model, tokenizer = load_dexperts_model_and_tokenizer2(
+  File "/data6/wangyatong/proxy-tuning/eval/utils.py", line 249, in load_dexperts_model_and_tokenizer2
+    model = DExpertsLlama2(
+  File "/data6/wangyatong/proxy-tuning/modeling/dexperts2.py", line 47, in __init__
+    self.expert_3 = AutoModelForCausalLM.from_pretrained(
+  File "/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 565, in from_pretrained
+    return model_class.from_pretrained(
+  File "/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3309, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3699, in _load_pretrained_model
+    new_error_msgs, offload_index, state_dict_index = _load_state_dict_into_meta_model(
+  File "/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/modeling_utils.py", line 743, in _load_state_dict_into_meta_model
+    set_module_tensor_to_device(model, param_name, param_device, **set_module_kwargs)
+  File "/data6/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/accelerate/utils/modeling.py", line 330, in set_module_tensor_to_device
+    new_value = value.to(device)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacity of 79.14 GiB of which 17.62 MiB is free. Process 1143241 has 1.75 GiB memory in use. Including non-PyTorch memory, this process has 30.54 GiB memory in use. Process 4110087 has 46.82 GiB memory in use. Of the allocated memory 30.04 GiB is allocated by PyTorch, and 12.40 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

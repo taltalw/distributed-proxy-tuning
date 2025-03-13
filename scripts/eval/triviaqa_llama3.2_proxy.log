@@ -1,0 +1,67 @@
+nohup: 忽略输入
+Evaluating DExperts with triviaqa expert
+Results dir: results/triviaqa/dexperts-3B
+/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/utils/generic.py:311: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  torch.utils._pytree._register_pytree_node(
+/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using pad_token, but it is not set yet.
+Traceback (most recent call last):
+  File "/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/wangyatong/proxy-tuning/eval/triviaqa/run_eval.py", line 165, in <module>
+    main(args)
+  File "/home/wangyatong/proxy-tuning/eval/triviaqa/run_eval.py", line 43, in main
+    model, tokenizer = load_dexperts_model_and_tokenizer(
+  File "/home/wangyatong/proxy-tuning/eval/utils.py", line 206, in load_dexperts_model_and_tokenizer
+    model = DExpertsLlama(
+  File "/home/wangyatong/proxy-tuning/modeling/dexperts.py", line 33, in __init__
+    self.base = AutoModelForCausalLM.from_pretrained(
+  File "/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 525, in from_pretrained
+    config, kwargs = AutoConfig.from_pretrained(
+  File "/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1054, in from_pretrained
+    return config_class.from_dict(config_dict, **unused_kwargs)
+  File "/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/configuration_utils.py", line 748, in from_dict
+    config = cls(**config_dict)
+  File "/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/models/llama/configuration_llama.py", line 157, in __init__
+    self._rope_scaling_validation()
+  File "/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/models/llama/configuration_llama.py", line 176, in _rope_scaling_validation
+    raise ValueError(
+ValueError: `rope_scaling` must be a dictionary with with two fields, `type` and `factor`, got {'factor': 32.0, 'high_freq_factor': 4.0, 'low_freq_factor': 1.0, 'original_max_position_embeddings': 8192, 'rope_type': 'llama3'}
+Loading model and tokenizer expert...
+Evaluating DExperts with chat expert
+Results dir: results/triviaqa/dexperts-chat-3B
+/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/utils/generic.py:311: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  torch.utils._pytree._register_pytree_node(
+/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using pad_token, but it is not set yet.
+Traceback (most recent call last):
+  File "/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/wangyatong/proxy-tuning/eval/triviaqa/run_eval.py", line 165, in <module>
+    main(args)
+  File "/home/wangyatong/proxy-tuning/eval/triviaqa/run_eval.py", line 43, in main
+    model, tokenizer = load_dexperts_model_and_tokenizer(
+  File "/home/wangyatong/proxy-tuning/eval/utils.py", line 206, in load_dexperts_model_and_tokenizer
+    model = DExpertsLlama(
+  File "/home/wangyatong/proxy-tuning/modeling/dexperts.py", line 33, in __init__
+    self.base = AutoModelForCausalLM.from_pretrained(
+  File "/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 525, in from_pretrained
+    config, kwargs = AutoConfig.from_pretrained(
+  File "/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1054, in from_pretrained
+    return config_class.from_dict(config_dict, **unused_kwargs)
+  File "/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/configuration_utils.py", line 748, in from_dict
+    config = cls(**config_dict)
+  File "/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/models/llama/configuration_llama.py", line 157, in __init__
+    self._rope_scaling_validation()
+  File "/home/wangyatong/anaconda3/envs/proxy/lib/python3.10/site-packages/transformers/models/llama/configuration_llama.py", line 176, in _rope_scaling_validation
+    raise ValueError(
+ValueError: `rope_scaling` must be a dictionary with with two fields, `type` and `factor`, got {'factor': 32.0, 'high_freq_factor': 4.0, 'low_freq_factor': 1.0, 'original_max_position_embeddings': 8192, 'rope_type': 'llama3'}
+Loading model and tokenizer expert...
