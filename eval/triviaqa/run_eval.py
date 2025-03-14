@@ -69,17 +69,20 @@ def main(args):
         prompts,
         batch_size=args.eval_batch_size,
         do_sample=False,
-        max_new_tokens=20,
+        max_new_tokens=64,
         stop_id_sequences=[[new_line_token]],
     )
 
     test_df['output'] = [o.strip() for o in outputs]
     cors = []
+
     for i, row in test_df.iterrows():
-        # ignore casing
+        # 忽略大小写
         pred = row['output'].lower()
         answers = [a.strip().lower() for a in row['answers']]
-        cors.append(pred in answers)
+        
+        # 只要 output 中包含任意一个正确答案就算正确
+        cors.append(any(ans in pred for ans in answers))
 
     test_df['correct'] = cors
     acc = np.nanmean(cors)
